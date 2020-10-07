@@ -1,6 +1,7 @@
-import pygame
 import random
 import time
+
+import pygame
 
 from menu import replay_menu
 from display import draw_text, redraw_window
