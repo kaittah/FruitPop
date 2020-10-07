@@ -31,7 +31,7 @@ def main():
                 if yPos > GUTTER//2 + 40:
                     run = replay_menu(board, play_ai_game, draw_text, WIN, GAMEDIMENSIONS, FRUITS)
                 else:
-                    run = replay_menu(board, play_game, draw_text, WIN, GAMEDIMENSIONS, FRUITS)
+                    run = replay_menu(board, play_ai_game, draw_text, WIN, GAMEDIMENSIONS, FRUITS)
     pygame.quit()
     
 

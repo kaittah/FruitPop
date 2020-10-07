@@ -132,6 +132,9 @@ def locate(x,y, board, GAMEDIMENSIONS):
         return None
 
 def check_limits(prevLoc, tile, board):
+    '''
+    Return true if the tile is able to be selected based on game rules
+    '''
     if not prevLoc: #first selected
         return True
     elif tile == prevLoc:
